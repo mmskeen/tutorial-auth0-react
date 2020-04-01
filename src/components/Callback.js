@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-
 import { useAuth } from "react-use-auth";
 
 const Auth0CallbackPage = () => {

@@ -9,7 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
   <AuthProvider
     navigate={navigate}
-    auth0_domain={process.env.REACT_APP_AUTH0_CLIENT_ID}
+    auth0_domain={process.env.REACT_APP_AUTH0_DOMAIN}
     auth0_client_id={process.env.REACT_APP_AUTH0_CLIENT_ID}>
     <App />
     </AuthProvider>
